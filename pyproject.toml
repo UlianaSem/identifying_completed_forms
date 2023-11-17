@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "identifying-completed-forms"
+version = "0.1.0"
+description = ""
+authors = ["Uliana Semyonova <i@ulianasemyonova.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.7"
+tinydb = "^4.8.0"
+djangorestframework = "^3.14.0"
+ipython = "^8.17.2"
+django-cors-headers = "^4.3.1"
+drf-spectacular = "^0.26.5"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
