@@ -3,7 +3,7 @@ import re
 from main.models import Form, Field, FieldType
 
 ROW_DATE = [r"\d\d.\d\d.\d{4}", r"\d{4}-\d\d-\d\d"]
-ROW_PHONE = [r"\s7\s\d{3}\s\d{3}\s\d\d\s\d\d", r"\s7\d{10}"]
+ROW_PHONE = [r"[\s|\+]7\s\d{3}\s\d{3}\s\d\d\s\d\d", r"[\s|\+]7\d{10}"]
 ROW_EMAIL = r"\w+?@\w+?\.[a-zA-Z]{2,6}"
 
 
